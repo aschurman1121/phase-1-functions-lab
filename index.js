@@ -6,3 +6,8 @@ function distanceFromHqInBlocks(destination) {
     let hq = 42;
     return Math.abs(destination - hq)
 }
+
+
+function distanceFromHqInFeet(destination) {
+  return (distanceFromHqInBlocks(destination)* 264)
+}
